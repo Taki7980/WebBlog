@@ -21,3 +21,4 @@ export default function Home({ searchParams }) {
   );
 }
 export const dynamic = 'force-dynamic'
+export const runtime = 'edge'
