@@ -12,6 +12,6 @@ const handleGetRequest = async () => {
     );
   }
 };
-
+// comment
 export const GET = handleGetRequest;
 
