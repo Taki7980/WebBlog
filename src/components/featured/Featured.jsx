@@ -5,9 +5,9 @@ import Image from "next/image";
 const Featured = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>
+      <h3 className={styles.title}>
         <b>Hello, From Team Weblify</b> Create and share your stories with us!
-      </h1>
+      </h3>
       <div className={styles.post}>
         <div className={styles.imgContainer}>
           <Image src="/p1.jpeg" alt="" fill className={styles.image} />

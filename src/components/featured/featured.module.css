@@ -4,7 +4,7 @@
 
 .title {
   font-size: 96px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .post {
@@ -22,6 +22,7 @@
 
 .image {
   object-fit: cover;
+  border-radius: 20px;
 }
 
 .textContainer {

@@ -6,6 +6,7 @@ import CardList from "@/components/cardList/CardList";
 import Menu from "@/components/Menu/Menu";
 
 
+
 export default function Home({ searchParams }) {
   const page = parseInt(searchParams.page) || 1;
 
@@ -20,5 +21,3 @@ export default function Home({ searchParams }) {
     </div>
   );
 }
-export const dynamic = 'force-dynamic'
-export const runtime = 'edge'
