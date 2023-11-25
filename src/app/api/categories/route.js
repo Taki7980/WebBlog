@@ -15,4 +15,3 @@ const handleGetRequest = async () => {
 
 export const GET = handleGetRequest;
 
-
