@@ -21,3 +21,4 @@ export default function Home({ searchParams }) {
     </div>
   );
 }
+export const dynamic = 'force-dynamic'
